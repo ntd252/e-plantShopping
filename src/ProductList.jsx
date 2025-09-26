@@ -19,44 +19,44 @@ function ProductList({ onHomeClick }) {
 
     const plantsArray = [
         {
-            category: "Air Purifying Plants",
+            category: "Hoa Cưới",
             plants: [
                 {
-                    name: "Snake Plant",
-                    image: "https://cdn.pixabay.com/photo/2021/01/22/06/04/snake-plant-5939187_1280.jpg",
+                    name: "Bó Hoa Cưới 050",
+                    image: "https://storage.googleapis.com/cdn_dlhf_vn/public/products/AWDL/AWDLB050/1730800360_6729eae882483.jpg",
                     description:
                         "Produces oxygen at night, improving air quality.",
                     cost: "$15",
                 },
                 {
-                    name: "Spider Plant",
-                    image: "https://cdn.pixabay.com/photo/2018/07/11/06/47/chlorophytum-3530413_1280.jpg",
+                    name: "Bó Hoa Cưới 049",
+                    image: "https://storage.googleapis.com/cdn_dlhf_vn/public/products/AWDL/AWDLB049/1731040409_672d94991b1da.jpg",
                     description:
                         "Filters formaldehyde and xylene from the air.",
                     cost: "$12",
                 },
                 {
-                    name: "Peace Lily",
-                    image: "https://cdn.pixabay.com/photo/2019/06/12/14/14/peace-lilies-4269365_1280.jpg",
+                    name: "Bó Hoa Cưới 046",
+                    image: "https://storage.googleapis.com/cdn_dlhf_vn/public/products/AWDL/AWDLB046/1731403275_67331e0b04950.jpg",
                     description: "Removes mold spores and purifies the air.",
                     cost: "$18",
                 },
                 {
-                    name: "Boston Fern",
-                    image: "https://cdn.pixabay.com/photo/2020/04/30/19/52/boston-fern-5114414_1280.jpg",
+                    name: "Bó Hoa Cưới 045",
+                    image: "https://storage.googleapis.com/cdn_dlhf_vn/public/products/AWDA/AWDAB045/1730791605_6729c8b5e475b.jpg",
                     description: "Adds humidity to the air and removes toxins.",
                     cost: "$20",
                 },
                 {
-                    name: "Rubber Plant",
-                    image: "https://cdn.pixabay.com/photo/2020/02/15/11/49/flower-4850729_1280.jpg",
+                    name: "Bó Hoa Cưới 044",
+                    image: "https://storage.googleapis.com/cdn_dlhf_vn/public/products/AWDA/AWDAB043/1730799612_6729e7fc18cbb.jpg",
                     description:
                         "Easy to care for and effective at removing toxins.",
                     cost: "$17",
                 },
                 {
-                    name: "Aloe Vera",
-                    image: "https://cdn.pixabay.com/photo/2018/04/02/07/42/leaf-3283175_1280.jpg",
+                    name: "Bó Hoa Cưới 043",
+                    image: "https://storage.googleapis.com/cdn_dlhf_vn/public/products/AWDA/AWDAB042/1730799533_6729e7ad8bda3.jpg",
                     description:
                         "Purifies the air and has healing properties for skin.",
                     cost: "$14",
@@ -64,42 +64,42 @@ function ProductList({ onHomeClick }) {
             ],
         },
         {
-            category: "Aromatic Fragrant Plants",
+            category: "Lan Hồ Điệp",
             plants: [
                 {
-                    name: "Lavender",
-                    image: "https://images.unsplash.com/photo-1611909023032-2d6b3134ecba?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                    name: "Lan Hồ Điệp Thành Ý 077",
+                    image: "https://storage.googleapis.com/cdn_dlhf_vn/public/products/ODDD/ODDDHC077/IMG_8244.jpg",
                     description: "Calming scent, used in aromatherapy.",
                     cost: "$20",
                 },
                 {
-                    name: "Jasmine",
-                    image: "https://images.unsplash.com/photo-1592729645009-b96d1e63d14b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                    name: "Lan Hồ Điệp Viên Mãn 076",
+                    image: "https://storage.googleapis.com/cdn_dlhf_vn/public/products/ODDD/ODDDHC076/IMG_8193.png",
                     description: "Sweet fragrance, promotes relaxation.",
                     cost: "$18",
                 },
                 {
-                    name: "Rosemary",
-                    image: "https://cdn.pixabay.com/photo/2019/10/11/07/12/rosemary-4541241_1280.jpg",
+                    name: "Lan Hồ Điệp Hưng Thịnh 063",
+                    image: "https://storage.googleapis.com/cdn_dlhf_vn/public/products/ODD1/ODD15HC063/IMG_8221_800x800.png",
                     description: "Invigorating scent, often used in cooking.",
                     cost: "$15",
                 },
                 {
-                    name: "Mint",
-                    image: "https://cdn.pixabay.com/photo/2016/01/07/18/16/mint-1126282_1280.jpg",
+                    name: "Lan Hồ Điệp Viên Mãn 006",
+                    image: "https://storage.googleapis.com/cdn_dlhf_vn/public/products/OVC0/OVC07LR006/AA0_7917lw.jpg",
                     description: "Refreshing aroma, used in teas and cooking.",
                     cost: "$12",
                 },
                 {
-                    name: "Lemon Balm",
-                    image: "https://cdn.pixabay.com/photo/2019/09/16/07/41/balm-4480134_1280.jpg",
+                    name: "Lan Hồ Điệp Hồng Phát 125",
+                    image: "https://storage.googleapis.com/cdn_dlhf_vn/public/products/ODDD/ODDDHC125/1727768336_66fba710be320.jpg",
                     description:
                         "Citrusy scent, relieves stress and promotes sleep.",
                     cost: "$14",
                 },
                 {
-                    name: "Hyacinth",
-                    image: "https://cdn.pixabay.com/photo/2019/04/07/20/20/hyacinth-4110726_1280.jpg",
+                    name: "Lan Hồ Điệp Hưng Thịnh 124",
+                    image: "https://storage.googleapis.com/cdn_dlhf_vn/public/products/ODDD/ODDDHC117/1727764987_66fb99fbed76c.jpg",
                     description:
                         "Hyacinth is a beautiful flowering plant known for its fragrant.",
                     cost: "$22",
@@ -302,7 +302,7 @@ function ProductList({ onHomeClick }) {
                         <a href="/" onClick={(e) => handleHomeClick(e)}>
                             <div>
                                 <h3 style={{ color: "white" }}>
-                                    Paradise Nursery
+                                    Healing Green
                                 </h3>
                                 <i style={{ color: "white" }}>
                                     Where Green Meets Serenity
@@ -430,7 +430,7 @@ function ProductList({ onHomeClick }) {
                                                 </div>{" "}
                                                 {/* Display plant description */}
                                                 <div className="product-cost">
-                                                    ${plant.cost}
+                                                    {plant.cost}
                                                 </div>{" "}
                                                 {/* Display plant cost */}
                                                 <button
